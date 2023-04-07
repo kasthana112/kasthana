@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 import ContactMe from "./ContactMe";
 import AboutMe from "./AboutMe";
-import Porject from "./Projects";
+import Projects from "./Projects";
 
 export default function Portfolio() {
     const [currentPage, setCurrentPage] = useState("About Me");
@@ -12,7 +12,7 @@ export default function Portfolio() {
         if (currentPage === "About Me") {
             return <AboutMe />;
         } else if (currentPage === "Projects") {
-            return <Porject />;
+            return <Project />;
         } else if (currentPage === "Contact Me") {
             return <ContactMe />;
         }
