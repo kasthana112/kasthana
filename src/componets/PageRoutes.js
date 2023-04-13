@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import ContactMe from "./ContactMe";
+// import ContactMe from "./ContactMe";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 
