@@ -8,22 +8,22 @@ import Footer from "./Footer";
 export default function Portfolio() {
     const [currentPage, setCurrentPage] = useState("About Me");
 
-    const renderPage = () => {
-        if (currentPage === "About Me") {
-            return <AboutMe />;
-        } else if (currentPage === "Projects") {
-            return <Project />;
-        } else if (currentPage === "Contact Me") {
-            return <ContactMe />;
-        }
-    };
+    // const renderPage = () => {
+    //     if (currentPage === "About Me") {
+    //         return <AboutMe />;
+    //     } else if (currentPage === "Projects") {
+    //         return <Project />;
+    //     } else if (currentPage === "Contact Me") {
+    //         return <ContactMe />;
+    // //     }
+    // };
 
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
         <div>
             <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
+            {/* {renderPage()} */}
             <Footer />
         </div>
     );
