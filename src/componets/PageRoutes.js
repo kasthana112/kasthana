@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import Contact from "./Contact";
-import AboutMe from "./AboutMe";
-import Projects from "./Projects";
+import Contact from "./pages/Contact"
+import AboutMe from "./pages/About";
+import Projects from "./pages/Projects";
 
 export default function Portfolio() {
     const [currentPage, setCurrentPage] = useState("About Me");
@@ -13,7 +13,7 @@ export default function Portfolio() {
             return <AboutMe />;
         } else if (currentPage === "Projects") {
             return <Project />;
-        } else if (currentPage === "Contact Me") {
+        } else if (currentPage === "Contact") {
             return <Contact />;
         }
     };
