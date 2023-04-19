@@ -18,7 +18,7 @@ const NavBar = () => {
             <a class="nav-link" href="#">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Call Me</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -27,7 +27,7 @@ const NavBar = () => {
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="#">Home</a></li>
               <li><a class="dropdown-item" href="#">Portfolio</a></li>
-              <li><a class="dropdown-item" href="#">Call Me</a></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
             </ul>
           </li>
         </ul>
