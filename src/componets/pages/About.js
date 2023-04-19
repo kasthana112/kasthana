@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import App from "./App";
 function About() {
     return (
         <div>
@@ -21,6 +20,6 @@ function About() {
     );
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+// ReactDOM.render(<App />, document.getElementById("root"));
 
 export default About;

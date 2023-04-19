@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from'react-dom';
-import './index.css';
-import App from './App';
 function Contact() {
     return (
         <div>
@@ -21,6 +19,6 @@ function Contact() {
 }
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<App />, document.getElementById('root'));
 
 export default Contact;
