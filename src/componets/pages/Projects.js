@@ -11,6 +11,7 @@ function Projects() {
             <div className="project-container">
                 <div className="project-card">
                     <h2>Weather App</h2>
+                    <a href='https://github.com/kasthana112/weather'></a>
                     <p>This is a weather app that allows users to search for a city and display the current weather for that city.</p>
                     <img src={weather} alt="weather" />
                 </div>
