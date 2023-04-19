@@ -6,8 +6,7 @@ import About from './componets/pages/About';
 import Contact from './componets/pages/Contact';
 import Projects from './componets/pages/Projects';
 import Resume from './componets/pages/Resume';
-
-import './App.css';
+import './App.js';
 
 
 function App() {
