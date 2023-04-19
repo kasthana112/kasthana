@@ -1,8 +1,4 @@
 import React from 'react';
-import weather from './weather';
-import quiz from './quiz';
-import openlibrary from './openlibrary';
-import notetaker from './notetaker';
 
 function Projects() {
     return (
